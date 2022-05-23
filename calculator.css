@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+html, body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+.navbar{
+  background-color: #000;
+  height: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+  
+.logo{
+  height: 30px;
+  margin-bottom: 4%;
+  width: 30px;
+}
+.logo > a{
+  text-decoration: none;
+      
+  }
+  
+.nav-right{
+    display: flex;
+    align-items: center;9
+  }
+  
+.link{
+  margin: 0 10px;
+}
+
+.link > a{
+  color: white;
+  font-size: 14px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile{
+    border-radius: 6px;
+    margin-top: 2%;
+}
+
+.profile > img{
+    width: 300px;
+    height: 350px;
+}
+
+.calculator1 > h2{
+    margin-left: auto;
+}
+
+table{
+  margin: 0 auto;
+  background-color: blue;
+  
+}
+
+.size{
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  color: red;
+  }
+
+.screen{
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+}
+
+.clear{
+    width: 50px;
+    height: 80px;
+    font-size: 24px;
+    background-color: blue;
+    color: red;
+}
+
+/* .calculator2{
+    display: flex;
+    flex-direction: column;
+}
+
+.display{
+    width: 287px;
+}
+
+.line1{
+    display: flex;
+}
+.line2{
+    display: flex;
+}
+.line3{
+    display: flex;
+}
+.line4{
+    display: flex;
+}
+.line5{
+    display: flex;
+}
+
+.top-button{
+    height: 40px;
+    width: 73.5px;
+    font-size: 24px;
+    background-color: #deebff;
+    color: black;
+    margin: 0;
+    border: none;
+} */
+
+.right-button{
+    background-color: #deebff;
+    color: black;
+    margin: 0;
+    border: none;
+    width: 73.5px;
+    height: 80px;
+    font-size: 24px;
+    margin-left: 0;
+}
+
+.buttons{
+    width: 73.5px;
+    height: 80px;
+    font-size: 24px;
+    background-color: #528aca;
+    color: white;
+    margin: 0;
+    border: none;
+}
+
+.hover:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+@media only screen and (max-width: 785px){
+    .nav-right{
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .calculator2{
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 500px){
+  .navbar{
+    height: auto;
+  }
+  .navbar > .nav-right{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 430px){
+  .navbar{
+    height: auto;
+  }
+  .navbar > .nav-right{
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link href="contact-me.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" type="image/png" href="image/logo1.jpg"/>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div><a href="index.html"><img  class='logo' src="image/logo1.jpg" alt="logo"></a></div>
+        <div class="nav-right">
+          <div class='link'><a href="index.html">About Me</a></div>
+          <div class='link'><a href="register.html">Sign Up</a></div>
+          <div class='link'><a href="login.html">Sign in</a></div>
+          <div class='link'><a href="calculator.html">Calculator Page</a></div>
+        </div>
+      </nav>
+
+    <div class="contact-form">
+        <form href="about-me.html" method=”POST”>
+            <div class="fieldset">
+                <legend><h2>Contact Me</h2></legend>
+                <label>First name:</label><br>
+                <input type="text" placeholder="Orji" required><br><br>
+                <label>Last name:</label><br>
+                <input type="text" placeholder = "Cecilia" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" placeholder="cecilia@yahoo.com" required><br><br>
+                <label>Message:</label><br>
+                <textarea cols="69" rows="10" placeholder="I am writing to you because I want to give you money..." required>  
+                </textarea><br><br>
+                <select class="dropdown" id="priority" aria-placeholder="priority" required>
+                    <option value="placeholder">Select Priority Level</option>
+                    <option value="not-urgent">Not urgent</option>
+                    <option value="urgent">urgent</option>
+                    <option value="very-urgent">Very urgent</option>
+                </select><br><br>
+                <span class="submit"><input type="submit" value="Submit"></span>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

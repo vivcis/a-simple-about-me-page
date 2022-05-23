@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+
+html, body {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+
+.navbar{
+  background-color: #000;
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20px;
+  color: white;
+}
+
+.logo{
+  height: 30px;
+  margin-bottom: 4%;
+  width: 30px;
+}
+.logo > a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-right{
+  display: flex;
+  align-items: center;
+}
+
+.link{
+  margin: 0 10px;
+}
+
+.link > a{
+  color: white;
+  font-size: 14px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.contact-form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.fieldset > input{
+    width: 60%;
+    height: 30px;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.submit > input{
+    background-color: black;
+    width: 20%;
+    border: 0;
+    height: 30px;
+    border-radius: 6px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+.submit :hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+@media only screen and (max-width: 610px) {
+    .nav-right{
+        text-align: center;
+    }
+    .contact-form{
+        width: 100%;
+        margin: 5%;
+    }
+    
+    .fieldset > input{
+        width: 90%;
+        height: 30px;
+        border-radius: 6px;
+    }
+  
+    .dropdown{
+        width: 50%;
+        height: 40px;
+        font-family: 'Nunito', sans-serif;
+        border-radius: 6px;
+    }
+    
+    .submit > input{
+        background-color: black;
+        width: 20%;
+        border: 0;
+        height: 30px;
+        border-radius: 6px;
+        color: white;
+        margin-bottom: 50px;
+    }
+  }
+  
+@media only screen and (max-width: 430px){
+  .navbar{
+    height: auto;
+  }
+  .navbar > .nav-right{
+    display: flex;
+    flex-direction: column;
+  }
+}
